@@ -1,0 +1,13 @@
+
+# HTID:23322141: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?(yosamaman.000webhostapp.com)(/)?.*$      [NC]
+RewriteRule .*.(.*)$ http://https://yosamaman.000webhostapp.com [R,NC]
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:23322141:
+
+# HTID:23322147: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?(yosamaman.000webhostapp.com)(/)?.*$      [NC]
+RewriteRule .*.(.*)$ http://https://yosamaman.000webhostapp.com [R,NC]
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:23322147:
